@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(62, 133, 167);
+}
+
+.myclass {
+    background-color: rgb(0, 255, 255);
+}
+
+#mytext{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#mytext2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+p{
+    font-size: 20px
+}

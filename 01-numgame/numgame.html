@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumGame</title>
+    <link rel="stylesheet" href="numgame.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body onload= "loadGame()">
+    <h1>Number Guessing Game</h1>
+    <p>Rules:<br>These are the rules...</p>
+    
+    <label>Your Guess:</label>
+    <input id="guess" type="number"min="0">
+   <button onclick="makeGuess()">Guess!</button> 
+   <br>
+
+   
+
+   <p id="report">Report</p>
+   <script src="numgame.js"></script>
+</body>
+</html>

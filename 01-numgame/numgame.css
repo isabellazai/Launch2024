@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(131, 159, 175);
+    font-family: monospace;
+    color:rgb(48, 65, 78);
+}
+
+#guess {
+    background-color: antiquewhite;
+}
+
