@@ -9,9 +9,9 @@
     <link rel="stylesheet" type="text/css" media="all" href="styles.css">
     <link type="text/css" rel="stylesheet" href="tswnavbar.css">
   </head>
-  <body style="               color: #607da9;">
+  <body style="                              color: #607da9;">"idth=25=<!-- start of header section: insert your logo, etc, here -->
     <div id="tswcontainer" style="color: inherit;">
-      <div id="tswheader"> <!-- start of header section: insert your logo, etc, here -->
+      <div id="tswheader">
         <h2 style="text-align: center;">Things about Isabella!</h2>
         <p></p>
         <p>&nbsp;</p>
@@ -19,11 +19,11 @@
       <div id="tswcontent">
         <div id="tswcontproper">
           <!-- start of content column: insert your content here -->
-          <h1>Welcome!</h1>
-          <p>&nbsp;<em id="logo"><img src="./images/smiley%20face.jpg" alt="" title="Smiley Faace"
-
-                style="width: 204px; height: 204px;"></em></p>
+          
           <!-- end of content column: put your content above this line --> </div>
+        <h1>Pong Game!</h1>
+          <iframe src="./02-ponggame/index.html" height="922" frameborder="0" width="838"> </iframe>
+        
       </div>
       <div id="tswsidecol">
         <div id="tswsideproper">
@@ -37,7 +37,6 @@
               </li>
               <li><a href="aboutmyhometown.html">About my home town</a></li>
               <li><br>
-              
               </li>
               <li><a href="pong.html">Pong Game</a></li>
             </ul>
@@ -45,13 +44,7 @@
         </div>
       </div>
       <div style="clear: both;"></div>
-      <div id="tswfooter">
-        <h2><b>About Me!</b></h2>
-        <p>My name is Isabella and I am 15 years old. I have an older sister who
-          is currently at UCLA, I am a competitive Table Tennis player and also
-          like playing Volleyball.</p>
-        <p>During my free time I like to watch movies and build puzzles.</p>
-      </div>
+      <div id="tswfooter"> </div>
     </div>
     <div style="text-align: left;"><br>
     </div>

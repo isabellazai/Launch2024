@@ -62,7 +62,9 @@
               <li><br>
               </li>
               <li><a href="aboutmyhometown.html">About my home town</a></li>
-              
+              <li><br>
+              </li>
+              <li><a href="./03-owmapi/index.html">Weather Page</a></li>
               <li><br>
               </li>
               <li><a href="./02-ponggame/index.html">Pong Game</a></li>

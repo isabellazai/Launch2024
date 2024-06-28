@@ -9,8 +9,8 @@
     <link rel="stylesheet" type="text/css" media="all" href="styles.css">
     <link type="text/css" rel="stylesheet" href="tswnavbar.css">
   </head>
-  <body style="               color: #607da9;">
-    <div id="tswcontainer" style="color: inherit;">
+  <body style="        color: #607da9;">
+    <div id="tswcontainer">
       <div id="tswheader"> <!-- start of header section: insert your logo, etc, here -->
         <h2 style="text-align: center;">Things about Isabella!</h2>
         <p></p>
@@ -19,10 +19,21 @@
       <div id="tswcontent">
         <div id="tswcontproper">
           <!-- start of content column: insert your content here -->
-          <h1>Welcome!</h1>
-          <p>&nbsp;<em id="logo"><img src="./images/smiley%20face.jpg" alt="" title="Smiley Faace"
+          <h1>My Hobbies! <img src="./images/puzzle.jpg" style="width: 195px; height: 160px;"></h1>
+          <ol>
+            <li>Puzzles</li>
+            <li>Hiking</li>
+            <li>Pottery</li>
+            <li>Photography</li>
+            <li>Board Games</li>
+          </ol>
+          <p> <iframe src="https://www.youtube.com/embed/Dnpgtsj9O7Y" title="1000 Pieces Puzzle Time Lapse"
 
-                style="width: 204px; height: 204px;"></em></p>
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""
+
+              height="435" frameborder="0" width="773"></iframe></p>
           <!-- end of content column: put your content above this line --> </div>
       </div>
       <div id="tswsidecol">
@@ -37,20 +48,19 @@
               </li>
               <li><a href="aboutmyhometown.html">About my home town</a></li>
               <li><br>
-              
               </li>
-              <li><a href="pong.html">Pong Game</a></li>
+              <li><a href="./03-owmapi/index.html">Weather Page</a></li>
+              <li><br>
+              </li>
+              <li><a href="./02-ponggame/index.html">Pong Game</a></li>
             </ul>
           </div>
         </div>
       </div>
       <div style="clear: both;"></div>
       <div id="tswfooter">
-        <h2><b>About Me!</b></h2>
-        <p>My name is Isabella and I am 15 years old. I have an older sister who
-          is currently at UCLA, I am a competitive Table Tennis player and also
-          like playing Volleyball.</p>
-        <p>During my free time I like to watch movies and build puzzles.</p>
+        <!-- start of footer section: insert your copyright notice, etc, here -->
+        <!-- end of footer section: insert your copyright notice, etc, above this line -->
       </div>
     </div>
     <div style="text-align: left;"><br>

@@ -11,7 +11,8 @@
   </head>
   <body style="               color: #607da9;">
     <div id="tswcontainer" style="color: inherit;">
-      <div id="tswheader"> <!-- start of header section: insert your logo, etc, here -->
+      <div id="tswheader">
+        <!-- start of header section: insert your logo, etc, here -->
         <h2 style="text-align: center;">Things about Isabella!</h2>
         <p></p>
         <p>&nbsp;</p>
@@ -37,7 +38,9 @@
               </li>
               <li><a href="aboutmyhometown.html">About my home town</a></li>
               <li><br>
-              
+              </li>
+              <li><a href="weather.html">Weather Page</a></li>
+              <li><br>
               </li>
               <li><a href="pong.html">Pong Game</a></li>
             </ul>
@@ -55,5 +58,6 @@
     </div>
     <div style="text-align: left;"><br>
     </div>
+    
   </body>
 </html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+    <link rel="stylesheet" href="pong.css">
+</head>
+<body>
+    <h1>Pong Game</h1>
+    <p>Blue paddle: S key=down, W key=up</p>
+    <p>Purple paddle: Up arrow key=up, Down arrow key=down</p>
+    <canvas id="gameboard" width="500" height="500"></canvas>
+    <div id="scoreboard">0 : 0</div>
+    <button id="reset" onclick="resetGame()">Start/Reset</button>
+    <button id="pause" onclick="pauseGame()">Pause</button>
+    <button id="resume" onclick="resumeGame()">Resume</button>
+    <br />
+    <input type="checkbox" id="cpucheck">
+    <label>CPU Play</label>
+
+    <script src="Ball.js"></script>
+    <script src="Paddle.js"></script>
+    <script src="pong.js"></script>
+    <script src="controls.js"></script>
+</body>
+</html>
